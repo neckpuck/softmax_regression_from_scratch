@@ -48,9 +48,10 @@ A few important details in the implementation:
 
 ```text
 .
-├── LICENSE
-├── README.md 
-└── softmax_regression.ipynb
+├── notebook/
+│   └── softmax_regression.ipynb   
+├── LICENSE                         
+├── README.md                       
 ```
 
 ## Requirements
