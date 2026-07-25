@@ -51,7 +51,8 @@ A few important details in the implementation:
 ├── notebook/
 │   └── softmax_regression.ipynb   
 ├── LICENSE                         
-├── README.md                       
+├── README.md
+└── requirements.txt                       
 ```
 
 ## Requirements
