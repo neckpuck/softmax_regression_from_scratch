@@ -29,8 +29,8 @@ This project implements softmax regression for multiclass classification and tes
 
 On the Iris classification task, the model achieved:
 
-* **Validation accuracy:** 0.96
-* **Test accuracy:** 0.97
+* **Validation accuracy:** 1.0
+* **Test accuracy:** 0.93
 
 These numbers are reported with accuracy only, so they should be interpreted as a simple baseline metric rather than a complete evaluation.
 
