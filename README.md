@@ -52,6 +52,7 @@ softmax_reg/
 │   └── softmax_regression.ipynb
 ├── src/
 │   └── softmax.py
+├── .gitignore
 ├── LICENSE
 ├── README.md
 └── requirements.txt                    
