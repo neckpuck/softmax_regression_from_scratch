@@ -31,6 +31,9 @@ On the Iris classification task, the model achieved:
 
 * **Validation accuracy:** 1.0
 * **Test accuracy:** 0.93
+* **Test accuracy (scikit-learn LogisticRegression, for comparison):** 0.9
+
+![Decision boundary](assets/decision_boundary.png)
 
 These numbers are reported with accuracy only, so they should be interpreted as a simple baseline metric rather than a complete evaluation.
 
@@ -48,6 +51,8 @@ A few important details in the implementation:
 
 ```text
 softmax_reg/
+├── assets/
+│   └── decision_boundary.png
 ├── notebook/
 │   └── softmax_regression.ipynb
 ├── src/
@@ -60,6 +65,15 @@ softmax_reg/
 
 ## Requirements
 
-* Python 3.x
-* NumPy
-* Jupyter Notebook
+See `requirements.txt`. Install with:
+    pip install -r requirements.txt
+
+## How to run
+
+1. Install dependencies: `pip install -r requirements.txt`
+2. Launch Jupyter **from the `notebook/` directory** — the import of `src/softmax.py` relies on the notebook's working directory being `notebook/`.
+3. Open `softmax_regression.ipynb` and run all cells.
+
+## License
+
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
