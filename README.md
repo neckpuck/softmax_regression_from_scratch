@@ -47,12 +47,14 @@ A few important details in the implementation:
 ## Project structure
 
 ```text
-.
+softmax_reg/
 ├── notebook/
-│   └── softmax_regression.ipynb   
-├── LICENSE                         
+│   └── softmax_regression.ipynb
+├── src/
+│   └── softmax.py
+├── LICENSE
 ├── README.md
-└── requirements.txt                       
+└── requirements.txt                    
 ```
 
 ## Requirements
